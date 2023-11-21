@@ -1,0 +1,309 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.o_web_client {
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-flow: column nowrap;
+    -moz-flex-flow: column nowrap;
+    -webkit-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    overflow: hidden;
+}
+
+.o_web_client {
+    position: relative;
+    background-color: #F9F9F9;
+}
+
+.o_web_client > .o_main .o_main_content {
+    -ms-flex: 1 1 auto;
+    -moz-flex: 1 1 auto;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-flow: column nowrap;
+    -moz-flex-flow: column nowrap;
+    -webkit-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+}
+
+.o_web_client > .o_main_content {
+    overflow: initial;
+}
+
+html .o_web_client > .o_main_content {
+    -ms-flex: 1 1 auto;
+    -moz-flex: 1 1 auto;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-flow: column nowrap;
+    -moz-flex-flow: column nowrap;
+    -webkit-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+}
+
+.o_control_panel {
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #c6c6c6;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    background-color: #F9F9F9;
+}
+
+.o_control_panel {
+    background-color: #ffffff;
+}
+
+.o_web_client > .o_main .o_main_content .o_control_panel {
+    -ms-flex: 0 0 auto;
+    -moz-flex: 0 0 auto;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 18px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 0px;
+}
+
+.breadcrumb {
+    background-color: inherit;
+}
+
+.o_control_panel > .breadcrumb {
+    width: 50%;
+    margin: 0px;
+    font-size: 18px;
+}
+
+.o_control_panel .breadcrumb {
+    padding: 0;
+}
+
+.breadcrumb > li {
+    display: inline-block;
+}
+
+.breadcrumb > .active {
+    color: #AEA79F;
+}
+
+.o_control_panel > .breadcrumb > li {
+    display: inline-block;
+    max-width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+}
+
+.o_control_panel > .breadcrumb > li {
+    white-space: pre-line !important;
+}
+
+.o_control_panel > .o_cp_searchview {
+    width: 50%;
+    min-height: 30px;
+}
+
+.o_searchview {
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+    position: relative;
+    padding: 0 20px 1px 0;
+}
+
+.o_searchview {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    padding: 1px 25px 3px 5px;
+}
+
+input[type="text"], input[type="password"], input[type="number"], textarea, select, .o_form_view.o_form_editable .o_form_field_many2manytags, .o_searchview {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.o_searchview .o_searchview_more {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.o_searchview .o_searchview_more {
+    position: absolute;
+    top: 6px;
+    left: auto;
+    bottom: auto;
+    right: 5px;
+}
+
+.fa-search-plus:before {
+    content: "\f00e";
+}
+
+.o_form_view.o_form_editable .o_form_field_many2manytags, .o_searchview {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.o_searchview .o_searchview_input {
+    width: 100px;
+    -ms-flex: 1 0 auto;
+    -moz-flex: 1 0 auto;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+
+.o_searchview .o_searchview_input {
+    border: none;
+    outline: none;
+    padding: 4px 0 0 0;
+}
+
+.o_control_panel > .o_cp_left {
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -moz-justify-content: space-between;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 5px;
+}
+
+.btn-primary {
+    text-transform: uppercase;
+    background-color: #5dc2a7 !important;
+    border: #5dc2a7;
+}
+
+.o_control_panel > .o_cp_right {
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    width: 50%;
+    margin-top: 5px;
+}
+
+.o_control_panel > .o_cp_right > .o_cp_pager {
+    margin: auto 0 auto auto;
+    padding-left: 5px;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.o_control_panel > .o_cp_right > .o_cp_pager {
+    margin: 0 0 0 auto !important;
+}
+
+.o_control_panel > .o_cp_right > .o_cp_pager > div {
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.o_control_panel > .o_cp_right > .o_cp_pager .o_pager_counter {
+    margin-right: 5px;
+}
+
+.btn-group, .btn-group-vertical {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fa-chevron-left:before {
+    content: "\f053"; /* Mã Unicode của mũi tên trái từ Font Awesome */
+    font-family: 'Font Awesome 5 Free'; /* Tên của font chứa biểu tượng */
+    font-weight: 900; /* Trọng số của font, có thể cần điều chỉnh tùy thuộc vào phiên bản Font Awesome */
+}
+
+.fa-chevron-right:before {
+    content: "\f054"; /* Mã Unicode của mũi tên trái từ Font Awesome */
+    font-family: 'Font Awesome 5 Free'; /* Tên của font chứa biểu tượng */
+    font-weight: 900; /* Trọng số của font, có thể cần điều chỉnh tùy thuộc vào phiên bản Font Awesome */
+}
+
+.fa-list-ul{
+    border: none;
+}
+
+.fa-list-ul:before {
+    content: "\f0ca";
+    font-family: 'Font Awesome 5 Free'; /* Tên của font chứa biểu tượng */
+    font-weight: 900; /* Trọng số của font, có thể cần điều chỉnh tùy thuộc vào phiên bản Font Awesome */
+}
+
+.fa-th-large:before {
+    content: "\f009";
+    font-family: 'Font Awesome 5 Free'; /* Tên của font chứa biểu tượng */
+    font-weight: 900; /* Trọng số của font, có thể cần điều chỉnh tùy thuộc vào phiên bản Font Awesome */
+}
+
+.fa-table:before {
+    content: "\f0ce";
+    font-family: 'Font Awesome 5 Free'; /* Tên của font chứa biểu tượng */
+    font-weight: 900; /* Trọng số của font, có thể cần điều chỉnh tùy thuộc vào phiên bản Font Awesome */
+}
+@media (min-width: 991.98px){
+    .o_control_panel .o_cp_left {
+        width: 60%;
+    }
+
+    .o_control_panel .o_cp_right {
+        width: 40%;
+    }
+}
+

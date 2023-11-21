@@ -1,0 +1,264 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+*,::after,::before{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Quicksand", arial, serif;
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    word-break: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.4;
+    background-color: #F2F6FE;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: black;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+    text-decoration: none;
+}
+
+img {
+    border: none;
+    outline: none;
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+}
+
+.label{
+    display: inline-block;
+}
+
+button, input {
+    overflow: visible;
+}
+
+button, input {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.register {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.register .log-wrap {
+    width: 100%;
+    max-width: 500px;
+}
+
+.register-page {
+    max-width: 800px !important;
+}
+
+.register .form-wrap {
+    background-color: white;
+    padding: 30px 79px 39px;
+    border-radius: 30px;
+}
+
+.register-page .form-wrap {
+    padding: 20px 50px 65px 30px;
+}
+
+.register-page .register-banner {
+    text-align: center;
+    margin-bottom: -16px;
+}
+
+.register .form-wrap .log-head {
+    margin-bottom: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.register .form-wrap .log-head .log-title {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 0;
+    line-height: 120%;
+}
+
+.register .form-wrap .head-label {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 130%;
+    margin-bottom: 55px;
+}
+.register-page .head-label {
+    margin-bottom: 31px !important;
+}
+
+.register-page .experience-list li {
+    background-image: url(../image/icon-check.svg);
+}
+
+.register-page .experience-list li {
+    background: url(../image/icon-check.svg) no-repeat 0 2px;
+    margin-bottom: 16px;
+    padding-left: 32px;
+}
+
+.register-page .logo-teky {
+    text-align: right;
+    margin-bottom: 85px;
+    padding-top: 18px;
+}
+
+.register .form-wrap .form-group {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.form-control {
+    border-radius: 50px;
+    height: 49px;
+    padding: 15px 20px;
+    font-weight: 500;
+    font-family: "Quicksand";
+    border-color: #d9d9d9;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-control::placeholder{
+    opacity: 0.4;
+}
+
+.invalid-feedback {
+    display: none;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+.register .btn{
+    color: white;
+    background-color: #ffa800;
+}
+
+.register .form-wrap .btn-submit {
+    margin-bottom: 24px;
+}
+
+.register .btn:hover{
+    color: white;
+    background-color: #ffa800;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.font-weight-bold {
+    font-weight: 500!important;
+}
+.text-link {
+    color: #0654ba !important;
+}
+
+.register .form-wrap .register-or {
+    text-align: center;
+    position: relative;
+    margin-bottom: 28px;
+}
+
+.register .form-wrap .register-or::before {
+    width: 100%;
+    background-color: rgba(88, 88, 88, 0.5);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 1px;
+    content: "";
+}
+
+.register .form-wrap .register-or .label-or {
+    display: inline-block;
+    font-size: 12px;
+    background-color: #fff;
+    padding: 0 12px;
+    position: relative;
+    z-index: 1;
+}
+
+.register .form-wrap .register-other{
+    padding: 0 16px;
+}
+
+.register .form-wrap .register-other{
+    margin-bottom: 31px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.devise__social-register {
+    border: none;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: white !important;
+    line-height: 46px;
+    height: 48px;
+    color: dimgray;
+    position: relative;
+    z-index: 1;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    cursor: pointer;
+}

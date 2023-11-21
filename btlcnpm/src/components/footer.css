@@ -1,0 +1,349 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+
+img {
+    border: none;
+    outline: none;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+*,::after,::before{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Quicksand", arial, serif;
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    word-break: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.4;
+}
+
+a{
+    transition: all ease 0.3s;
+    text-decoration: none;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+strong {
+    font-weight: bolder;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    display: list-item;
+}
+
+#footer {
+    background-color: #fff;
+    padding: 35px 30px 39px 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+#footer .f-col-1 {
+    width: 29%;
+    max-width: 375px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+#footer .f-col-1 .f-logo {
+    width: 110px;
+    margin-right: 7px;
+}
+
+#footer .f-col-1 .list-linked {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    padding: 0 6px;
+    background-color: #dcf4ee;
+    border-radius: 40px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+#footer .f-col-1 .list-linked li {
+    padding: 12px 4px;
+}
+
+#footer .f-col-1 .text-infor {
+    padding-top: 20px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+#footer .f-col-2 {
+    width: 14%;
+    max-width: 180px;
+}
+
+#footer .f-col-3 {
+    width: 14%;
+    max-width: 180px;
+}
+
+.input-group {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+#footer .f-col-1 .form-register {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #d9d9d9;
+    border-radius: 50px;
+    padding: 0 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#footer .f-col-1 .form-register .form-text {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 12px;
+    position: relative;
+}
+
+.form-text {
+    display: block;
+    margin-top: 0.25rem;
+}
+
+#footer .f-col-1 .form-register .form-text .register-label {
+    font-weight: 700;
+    display: block;
+    margin-bottom: 0;
+}
+
+#footer .f-col-1 .form-register .form-text .form-input {
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    width: 100%;
+    font-weight: 500;
+    outline: none;
+}
+
+.form-input::placeholder{
+    opacity: 0;
+}
+
+#footer .f-col-1 .form-register .button-register {
+    margin-left: 20px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+#footer .f-col-1 .f-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#footer .f-col-1 .f-social .social-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#footer .f-col-1 .f-social .social-list li {
+    padding-left: 5px;
+}
+
+#footer .f-col-1 .f-social .social-list li a {
+    display: block;
+}
+
+#footer .f-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+#footer .f-menu li {
+    margin-bottom: 20px;
+}
+
+#footer .f-menu li a {
+    display: block;
+    background: url(../image/arrow-footer.svg) 0 3px no-repeat;
+    padding-left: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+    line-height: 120%;
+}
+
+#footer .f-menu li:last-child {
+    margin-bottom: 0;
+}
+
+#footer .f-col-4 {
+    width: 22%;
+    max-width: 280px;
+}
+
+#footer .f-col-4 .info-row {
+    margin-bottom: 22px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#footer .f-col-4 .info-row .info-icon {
+    width: 18px;
+    text-align: center;
+    margin-right: 18px;
+}
+
+#footer .f-col-4 .info-row .info-cont {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+#footer .f-col-4 .list-hotline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#footer .f-col-4 .list-hotline{
+    line-height: 100%;
+}
+
+#footer .f-col-4 .list-hotline li:first-child {
+    padding-left: 0;
+    border-right: 1px solid #000;
+}
+
+#footer .f-col-4 .list-hotline li:last-child {
+    padding-right: 0;
+}
+
+#footer .f-col-4 .list-hotline li .hotline-label {
+    margin-bottom: 0;
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+#footer .f-col-4 .list-hotline li .hotline-number {
+    display: block;
+}
+
+#footer .f-col-4 .info-row p {
+    margin-bottom: 10px;
+}
+
+#footer .f-col-4 .info-row p:last-child {
+    margin-bottom: 0;
+}
+
+#footer .f-col-4 .info-row .info-cont .addres-name {
+    font-size: 12px;
+}
+
+#footer .f-col-4 .info-row .office-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0062da;
+}
+
+#footer .f-col-4 .copyright {
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-style: normal;
+}
+@media (max-width: 1366px){
+    #footer .f-col-1 {
+    width: 32%;
+}
+
+#footer .f-col-2 {
+    width: 16%;
+}
+
+#footer .f-col-3 {
+    width: 16%;
+}
+
+#footer .f-col-4 {
+    width: 25%;
+}
+
+#footer .f-col-4 .list-hotline li {
+    padding: 0 16px;
+}
+}
